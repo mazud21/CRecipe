@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:layout_marginTop="45dp"
+    android:background="#ffffff"
+    tools:context="gmail.hmazud.com.crecipe.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Silakan mengirimkan pesan anda pada tombol dibawah ini"
+            android:id="@+id/textView2"
+            android:textColor="@color/basic_color"
+            android:textSize="18sp"
+            android:padding="16dp"
+            />
+
+        <Button
+            android:id="@+id/buttonSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="14dp"
+            android:layout_marginStart="22dp"
+            android:onClick="send"
+            android:padding="16dp"
+            android:text="Email" />
+
+</RelativeLayout>

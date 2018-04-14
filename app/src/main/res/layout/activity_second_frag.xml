@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="48dp"
+    android:background="@color/colorPrimaryDark"
+    tools:context="gmail.hmazud.com.crecipe.First_Frag">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginRight="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="#ffffff"
+                android:scrollIndicators="bottom"
+                android:nestedScrollingEnabled="true">
+
+                <TextView
+                    android:id="@+id/NamaResep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignTop="@id/imageView"
+                    android:text="Caramel Cappuccino"
+                    android:textSize="24sp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/img"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:padding="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/kopi1"
+                    android:layout_below="@id/NamaResep"
+                    />
+
+                <TextView
+                    android:id="@+id/readmore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/NamaResep"
+                    android:text="www.mrcoffee.com"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <Button
+                    android:id="@+id/btntoAct2"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img"
+                    android:layout_alignParentRight="true"
+                    android:text="Resep" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="#ffffff"
+                android:scrollIndicators="bottom">
+
+                <TextView
+                    android:id="@+id/NamaResep1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignTop="@id/imageView"
+                    android:text="Coconut Cappuccino"
+                    android:textSize="24sp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:padding="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/kopi2"
+                    android:layout_below="@id/NamaResep1"
+                    />
+
+                <TextView
+                    android:id="@+id/readmore1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/NamaResep1"
+                    android:text="www.mrcoffee.com"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <Button
+                    android:id="@+id/btntoAct2b"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img1"
+                    android:layout_alignParentRight="true"
+                    android:text="Resep" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="#ffffff"
+                android:scrollIndicators="bottom">
+
+                <TextView
+                    android:id="@+id/NamaResep3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignTop="@id/imageView"
+                    android:text="Café Conquistador"
+                    android:textSize="24sp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:padding="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/kopi3"
+                    android:layout_below="@id/NamaResep3"
+                    />
+
+                <TextView
+                    android:id="@+id/readmore2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/NamaResep3"
+                    android:text="www.mrcoffee.com"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <Button
+                    android:id="@+id/btntoAct2c"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img3"
+                    android:layout_alignParentRight="true"
+                    android:text="Resep" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="#ffffff"
+                android:scrollIndicators="bottom">
+
+                <TextView
+                    android:id="@+id/NamaResep4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignTop="@id/imageView"
+                    android:text="Cappuccino Royale"
+                    android:textSize="24sp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:padding="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/kopi4"
+                    android:layout_below="@id/NamaResep4"
+                    />
+
+                <TextView
+                    android:id="@+id/readmore4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/NamaResep4"
+                    android:text="www.mrcoffee.com"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <Button
+                    android:id="@+id/btntoAct2d"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img4"
+                    android:layout_alignParentRight="true"
+                    android:text="Resep" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:padding="8dp"
+                android:background="#ffffff"
+                android:scrollIndicators="bottom">
+
+                <TextView
+                    android:id="@+id/NamaResep5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignTop="@id/imageView"
+                    android:text="Café Cubano"
+                    android:textSize="24sp"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                    android:textColor="#000000" />
+
+                <ImageView
+                    android:id="@+id/img5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:padding="2dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/kopi5"
+                    android:layout_below="@id/NamaResep5"
+                    />
+
+                <TextView
+                    android:id="@+id/readmore5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/NamaResep5"
+                    android:text="www.mrcoffee.com"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+                <Button
+                    android:id="@+id/btntoAct2e"
+                    style="@style/Widget.AppCompat.Button.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img5"
+                    android:layout_alignParentRight="true"
+                    android:text="Resep" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

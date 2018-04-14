@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="45dp"
+    android:background="#ffffff"
+    tools:context="gmail.hmazud.com.crecipe.First_Frag">
+
+    <LinearLayout
+        android:id="@+id/relative_about"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/title_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CRecipe"
+            android:textSize="32sp"
+            android:textColor="@color/basic_color"
+            android:textStyle="bold"
+            android:padding="8dp"
+            />
+
+        <ImageView
+            android:id="@+id/imgIC"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/icon_crecipe"
+            android:layout_gravity="center"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/about"
+            android:textSize="18sp"
+            android:textColor="@color/basic_color"
+            android:padding="8dp"
+            />
+
+        <TextView
+            android:id="@+id/thanksTo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:text="Terimakasih kepada : "
+            android:textSize="24sp"
+            android:textColor="@color/basic_color"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/udacity"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Udacity"
+                android:padding="8dp"
+                android:src="@drawable/ic_udacity"
+
+                />
+
+            <ImageView
+                android:id="@+id/iak3"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="IAK BATCH #3"
+                android:padding="8dp"
+                android:layout_toRightOf="@id/udacity"
+                android:src="@drawable/ic_iak"
+                />
+
+            <ImageView
+                android:id="@+id/mrcofee"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="MrCofee"
+                android:padding="8dp"
+                android:layout_below="@id/udacity"
+                android:src="@drawable/ic_mcof"
+                />
+
+            <ImageView
+                android:id="@+id/youtube"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Youtube"
+                android:padding="8dp"
+                android:layout_below="@id/iak3"
+                android:layout_toRightOf="@id/mrcofee"
+                android:src="@drawable/ic_ytube"
+                />
+
+            <ImageView
+                android:id="@+id/jurnalBumi"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:text="Jurnal Bumi"
+                android:padding="8dp"
+                android:layout_below="@id/mrcofee"
+                android:src="@drawable/ic_jb"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

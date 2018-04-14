@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">CRecipe</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_version">Versi Aplikasi</string>
+    <string name="title_activity_main2">SubFrag2</string>
+    <string name="title_activity_sub_frag2">SubFrag2</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="kopi">
+        Sejarah mencatat tanaman kopi berasal dari Abyssinia,4 nama daerah lawas di Afrika yang saat ini mencakup wilayah negara Etiopia dan Eritrea. Tidak banyak diketahui bagaimana orang-orang Abyssinia memanfaatkan tanaman kopi. Berbagai rujukan sejarah mengatakan kopi dipopulerkan sebagai minuman penyegar oleh bangsa Arab. Biji kopi menjadi komoditas komersial setelah dibawa oleh para pedagang Arab ke Yaman.
+Di masa awal, bangsa Arab memonopoli perdagangan biji kopi. Mereka mengendalikan perdagangan lewat Mocha, sebuah kota pelabuhan yang terletak di Yaman. Saat itu Mocha menjadi satu-satunya gerbang lalu-lintas perdagangan biji kopi. Demikian strategisnya pelabuhan tersebut dalam perdagangan kopi, sampai-sampai orang Eropa menyebut kopi dengan nama Mocha.
+Memasuki abad ke-17 orang-orang Eropa mulai mengembangkan perkebunan kopi sendiri. Karena iklim Eropa tidak cocok untuk tanaman kopi, mereka membudidayakan tanaman tersebut di daerah jajahannya yang tersebar di berbagai penjuru bumi. Salah satunya di Pulau Jawa yang dikembangkan oleh bangsa Belanda. Untuk masa tertentu kopi dari Jawa sempat mendominasi pasar kopi dunia. Saat itu secangkir kopi lebih popular dengan sebutan “Cup of Java”, secara harfiah artinya “secangkir Jawa”.
+    </string>
+
+    <!--Title kopi -->
+    <string name="arabica">ARABICA</string>
+    <string name="robusta">ROBUSTA</string>
+    <string name="excelsa">EXCELSA</string>
+    <string name="liberica">LIBERICA</string>
+
+    <string name="detail_arabica">
+        Kopi Arabika merupakan kopi tradisional yang rasanya dianggap paling enak oleh para penikmat kopi.
+        Biji kopi arabika memiliki cir ciri ukuran biji yang lebih kecil dibandingkan biji kopi jenis robusta,
+        kandungan kafein yang lebih rendah,rasa dan aroma yang lebih  nikmat serta harga yang lebih mahal.
+        Kopi arabika pertama dideskripsikan oleh Linnaeus pada tahun 1753.
+        Varietas terbaik yang dikenal adalah typica dan bourbon dan dari jenis ini beraneka ragam strain telah dikembangkan.
+
+    </string>
+    <string name="detail_robusta">
+        Kopi Robusta memiliki ukuran biji kopi yang besar, bentuknya oval,tinggi kafein dan memiliki aroma yang kurang harum.
+        Robusta dapatt dikembangkan dalam lingkungan dimana arabika tidak akan tumbuh..
+    </string>
+
+    <string name="detail_liberica">
+           Kopi Liberika adalah jenis kopi yang berasal dari Liberia, Afrika Barat. Kopi ini dapat tumbuh hingga 9 meter. Kopi ini didatangkan ke Indonesia jaman dulu untuk menggantikan kopi arabika yang terserang hama.
+       </string>
+
+    <string name="detail_excelsa">
+            Kopi excelsa ditemukan pada awal abad ke-20 di wilayah Afrika Barat. Pada awalnya tanaman ini disebut sebagai spesies Coffea excelsa, kadang-kadang disebut spesies Coffea dewevrei. Belakangan dikoreksi menjadi Coffea liberica var. dewevrei, sebagai salah satu varietas kopi liberika. Namun nama-nama tersebut masih menjadi perdebatan para ahli. Kopi excelsa memiliki banyak nama sinonim.
+       </string>
+
+    <!--Batas Penjelasan dengan Bahan 1/-->
+    <string name="bahan1">
+        1 cappuccino kecil
+        1 sendok makan sirup karamel
+        1/4 sendok teh gula
+    </string>
+
+
+    <!--Batas Bahan dengan Penyajian 1-->
+    <string name="cara_penyajian1">
+        Tempatkan dalam cangkir 1 sendok makan sirup karamel dan 1/4 sendok teh gula
+        Sajikan di cangkir cappuccino kecil
+        Aduk hingga rata. Top dengan busa tambahan jika diinginkan.
+    </string>
+
+    <!--   t r a n s i s i    -->
+
+    <!--Batas Penjelasan dengan Bahan 2/-->
+    <string name="bahan2">
+        1 cappuccino kecil
+        2 sendok teh krim kelapa (bukan santan kelapa)
+    </string>
+
+
+    <!--Batas Bahan dengan Penyajian 2-->
+    <string name="cara_penyajian2">
+        Tempatkan di cangkir 2 sendok teh krim kelapa (bukan santan)
+        Sajikan di cangkir cappuccino kecil
+        Aduk hingga rata. Top dengan busa tambahan jika diinginkan.
+    </string>
+
+    <!--   t r a n s i s i    -->
+
+    <!--Batas Penjelasan dengan Bahan 3/-->
+    <string name="bahan3">
+        1 cappuccino kecil
+        1 ons (2 sendok makan) Kahlúa (coffee liqueur)
+    </string>
+
+
+    <string name="cara_penyajian3">
+        Tempatkan dalam cangkir 1 ons (2 sendok makan) Kahlúa (kopi liqueur)
+        Sajikan di cangkir cappuccino kecil
+        Aduk hingga rata. Top dengan busa tambahan jika diinginkan.
+    </string>
+
+    <!--   t r a n s i s i    -->
+
+    <!--Batas Penjelasan dengan Bahan 4/-->
+    <string name="bahan4">
+        1 cappuccino kecil
+        1 ons (2 sendok makan) Frangelico (hazelnut liqueur) atau Amaretto (almond liqueur)
+    </string>
+
+
+    <!--Batas Bahan dengan Penyajian 4-->
+    <string name="cara_penyajian4">
+        Tempatkan dalam cangkir 1 ons (2 sendok makan) Frangelico (hazelnut liqueur) atau Amaretto (almond liqueur)
+        Sajikan di cangkir cappuccino kecil
+        Aduk hingga rata. Top dengan busa tambahan jika diinginkan.
+    </string>
+
+    <!--   t r a n s i s i    -->
+
+    <!--Batas Penjelasan dengan Bahan 5/-->
+    <string name="bahan5">
+        1 cappuccino kecil
+        1/2 sendok teh gula
+    </string>
+
+
+    <!--Batas Bahan dengan Penyajian 5-->
+    <string name="cara_penyajian5">
+        Tempatkan di secangkir kecil 1/2 sendok teh gula
+        Sajikan di cangkir cappuccino kecil
+        Aduk hingga rata. Top dengan busa tambahan jika diinginkan.
+    </string>
+
+    <string name="about">
+        Aplikasi ini dibuat untuk menyelesaikan tugas akhir dari "INDONESIA ANDROID KEJAR BEGINER BATCH 3".
+    </string>
+    <!--   t r a n s i s i    -->
+</resources>
